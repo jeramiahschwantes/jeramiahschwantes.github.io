@@ -15,27 +15,102 @@
 			color: #0f5640;
 			
 		}
+        #fltrt {
+            float:right;
+        }
+        #wrapper {
+            max-width: 800px;
+            text-align: left;
+            margin:auto;
+            background-color: whitesmoke;
+            padding: 3px 3px 2px 3px;
+        }
+        body{
+            background-color: #0f5640;
+        } 
+        ol{
+            list-style: none outside;
+        }
+        ol li{
+            background-image: url("gradhat.png");
+            background-size: 30px;
+            background-repeat: no-repeat;
+            background-position: 0 10px;
+            padding-left: 35px;
+            margin-bottom: 10px;
+        }
+        #tbbord{
+            border: #0f5640 solid 2px;
+        }
+        #cpy{
+            font-size: 10px; 
+        }
+        h1{
+            margin-top: 0px;
+        }
 	</style>
 	
 	<body>
+        <div id="wrapper">
 		<div id="heading">
-			
+			<img id="fltrt" src="selfimage.jpg" width="200px" height="200px" alt="Image of me">
 				<h1>Jeramiah Schwantes</h1>
 			<p>
 				Full Time Student
 			</p>
 			<p>
-        		Socials: <a href="https://www.youtube.com/@Croak2004" target="_blank">YouTube</a> | <a href="https://www.instagram.com/therealjeramiahs/" target="_blank">Instagram</a>
-			</p>
+        		Socials: <a href="https://www.youtube.com/@Croak2004" title="Goes to my youtube channel" target="_blank"><img src="youtube.png" width="15px" height="10px"></a> | <a href="https://www.instagram.com/therealjeramiahs/" title="Goes to my instagram" target="_blank"><img src="instagram.png" width="15px" height="15px"></a>
+			</p> <!--Image links for youtube and instagram, both go to a new tab-->
 			<p>
-        		<a href="https://www.uwgb.edu/" target="_blank"> University of Wisconsin - Green Bay</a>
-			</p>
-		</div>
+        		<a href="https://www.uwgb.edu/" title="UWGB official website" target="_blank"> University of Wisconsin - Green Bay</a>
+			</p> <!--Text link for UWGB, goes to a new tab-->
+            
+		</div><!--End of heading-->
 
+        <h3>About Me</h3>
+        <p>Hi! I'm Jeramiah and I am a freshman at the University of Wisconsin Green Bay. I'm majoring in Computer Science with emphasis on Sofware Engineering. I Graduated from De Pere High School in June of 2023.
+            I have been coding for the last four years and I currently know the languages: C++, C#, C, Java, HTML, and CSS.
+        </p>
+
+        <h3>Interests</h3>
+        <ul>
+            <li>Snowboarding🏂: I have been snowboarding for two years so far and it has become one of my favorite hobbies</li>
+            <li>Exploring🌳: I love hiking and exploring other states. I have been to Montana, Colorado, Utah, Florida, and North&nbspCarolina.</li>
+            <li>Gaming🎮: Gaming has always been a big part of my life. I played on an E-Sports team last year where we took third at state in Wisconsin.</li>
+            <li>Sports🏈: Sports are always a fun way to get active and have fun. I have played soccer, football, and basketball.</li>
+        </ul><!--End of Unordered List | Includes Emojis-->
+
+        <h3>Education</h3>
+        <ol type="">
+            <li><table id="tbbord">
+                <tr id="tbbord">
+                    <th id="tbbord">High School Diploma, 2023</th>
+                </tr>
+                <tr id="tbbord">
+                    <td id="tbbord">De Pere High School | De Pere, WI</td>
+                </tr>
+            </table></li><!--Table with borders--><!--Not a fan of the look-->
+
+            <li><table>
+                <tr>
+                    <th>University of Wisconsin Green Bay</th>
+                </tr>
+                <tr>
+                    <td>BS in Computer Science candidate</td>
+                </tr>
+                <tr>
+                    <td>Expected to graduate in 2027</td>
+                </tr>
+            </table></li><!--Table without borders-->
+        </ol> <!--End of Ordered List | Includes table with no border & table with border-->
+
+        <footer>
+            <p id="cpy">Copyright &copy 2023 Jeramiah Schwantes</p>
+            <!--Special Character-->
+	    </footer>
+        </div><!--End of Wrapper-->
 	</body>
 	
-	<footer>
-		
-	</footer>
+	
 	
 </html>
