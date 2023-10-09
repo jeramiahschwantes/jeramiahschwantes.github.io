@@ -12,6 +12,7 @@
 		}
 		#heading {
 			color: #0f5640;
+			font-size: 20px;
 			
 		}
         #fltrt {
@@ -47,6 +48,9 @@
         h1{
             margin-top: 0px;
         }
+		h3{
+			margin-top: 5px;
+		}
 	</style>
 	</head>
 	
@@ -68,11 +72,17 @@
             
 		</div><!--End of the heading-->
 
+		<table class="tbbord"><!--Start of table with borders-->
+			<tr class="tbbord">
+				<td class="tbbord">
         <h3>About Me</h3>
         <p>Hi! I'm Jeramiah and I am a freshman at the University of Wisconsin Green Bay. I'm majoring in Computer Science with emphasis on Sofware Engineering. I Graduated from De Pere High School in June of 2023.
             I have been coding for the last four years and I currently know the languages: C++, C#, C, Java, HTML, and CSS.
         </p>
-
+	</td>
+			</tr>
+			<tr class="tbbord">
+				<td class="tbbord">
         <h3>Interests</h3>
         <ul><!--Start of Unordered List-->
             <li>Snowboarding🏂: I have been snowboarding for two years so far and it has become one of my favorite hobbies.</li>
@@ -80,17 +90,20 @@
             <li>Gaming🎮: Gaming has always been a big part of my life. I played on an E-Sports team last year where we took third at state in Wisconsin.</li>
             <li>Sports🏈: Sports are always a fun way to get active and have fun. I have played soccer, football, and basketball.</li>
         </ul><!--End of Unordered List | Includes Emojis-->
-
+	</td>
+		</tr>
+		<tr class="tbbord">
+			<td class="tbbord">
         <h3>Education</h3>
         <ol><!--Start of Ordered List-->
-            <li><table class="tbbord">
-                <tr class="tbbord">
-                    <th class="tbbord">High School Diploma, 2023</th>
+            <li><table>
+                <tr>
+                    <th>High School Diploma, 2023</th>
                 </tr>
-                <tr class="tbbord">
-                    <td class="tbbord">De Pere High School | De Pere, WI</td>
+                <tr>
+                    <td>De Pere High School | De Pere, WI</td>
                 </tr>
-            </table></li><!--Table with borders--><!--Not a fan of the look-->
+            </table></li><!--Table without borders-->
 
             <li><table>
                 <tr>
@@ -104,7 +117,9 @@
                 </tr>
             </table></li><!--Table without borders-->
         </ol> <!--End of Ordered List | Includes table with no border & table with border-->
-
+	</td>
+	</tr>
+	</table><!--End of table with borders-->
         <footer>
             <p id="cpy">Copyright &copy; 2023 Jeramiah Schwantes</p>
             <!--Special Character-->
